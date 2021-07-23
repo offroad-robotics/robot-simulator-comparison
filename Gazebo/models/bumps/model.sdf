@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="bumps">
+    <static>false</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://bumps/meshes/bumps_1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1</iyy>
+          <iyz>0</iyz>
+          <izz>1</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual_abcedf">
+        <geometry>
+          <mesh>
+            <uri>model://bumps/meshes/bumps_1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://bumps/materials/scripts</uri>
+            <uri>model://bumps/materials/textures</uri>
+            <name>bumps/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

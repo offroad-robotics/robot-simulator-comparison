@@ -1,0 +1,9 @@
+material bumps/Diffuse {
+    technique {
+        pass {
+            texture_unit {
+                texture plywood.png
+            }
+        }
+    }
+}

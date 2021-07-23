@@ -1,0 +1,9 @@
+material grass/Diffuse {
+    technique {
+        pass {
+            texture_unit {
+                texture grass.jpg
+            }
+        }
+    }
+}

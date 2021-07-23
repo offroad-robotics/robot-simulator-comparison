@@ -1,0 +1,9 @@
+material gravel/Diffuse {
+    technique {
+        pass {
+            texture_unit {
+                texture gravel.jpg
+            }
+        }
+    }
+}
