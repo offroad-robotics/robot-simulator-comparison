@@ -7,7 +7,7 @@
 This repository includes the assets for each of four simulators used in a Husky A200 mobile robot simulation comparision. In each folder is the models used in each environment, the environment file itself, the model of the Husky A200 mobile robot used for each simulator, as well as other odds and ends that are needed.
 
 ```
-@article{FARLEY2022102629,
+@article{farley2022pick,
 	title = {How to pick a mobile robot simulator: A quantitative comparison of CoppeliaSim, Gazebo, MORSE and Webots with a focus on accuracy of motion},
 	author = {Andrew Farley and Jie Wang and Joshua A. Marshall},
 	journal = {Simulation Modelling Practice and Theory},
